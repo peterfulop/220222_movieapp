@@ -50,6 +50,10 @@ body {
   margin-right: 1rem;
 }
 
+.pos_abs {
+  position: absolute;
+}
+
 .off-a,
 .off-a:hover {
   text-decoration: none;
@@ -161,7 +165,8 @@ body {
 }
 
 .poster,
-.poster-cover {
+.poster-cover,
+.movie__image {
   width: 250px;
   height: 370px;
   border-radius: 0.5rem;
@@ -200,4 +205,8 @@ body {
 .movie__info ul li {
   list-style: none;
   margin-left: 2.5px;
+}
+
+.movie__image a {
+  width: 10px;
 }
