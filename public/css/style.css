@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@300&family=Lato:wght@100;300;400;700;900&family=Playfair+Display&family=Roboto+Condensed&family=Roboto:wght@100;500&family=Yanone+Kaffeesatz:wght@300&display=swap");
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+ */
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black !important;
+}
+
+.gold {
+  color: gold;
+}
+
+.header {
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 1rem;
+  color: lightgray;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.header__title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.icon {
+  margin-left: 0.5rem;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.off-a,
+.off-a:hover {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.main {
+  background-color: rgb(26, 26, 26);
+}
+
+.footer {
+  background-color: rgb(54, 54, 54);
+}
+
+.btn-menuitem {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(100, 100, 100);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+}
+
+.login:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.signup,
+.logout {
+  border: 1px solid tomato;
+  color: tomato;
+}
+
+.signup:hover,
+.logout:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.search {
+  border: none;
+}
+
+.search:hover {
+  color: white;
+}
+
+.avatar {
+  border: none;
+}
+
+.avatar:hover {
+  color: white;
+}
+
+.avatar img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.movie__container {
+  margin: 1rem;
+}
+
+.movie__container-movies {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.movie__container-title {
+  color: white;
+  padding: 1rem 0.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.movie__card {
+  margin: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.movie__card:hover {
+  color: white;
+}
+
+.poster-cover {
+  position: absolute;
+  opacity: 0.2;
+}
+
+.poster__save {
+  position: absolute;
+  font-size: 2rem;
+}
+
+.saved {
+  color: gold;
+}
+
+.unsaved {
+  color: gainsboro;
+}
+
+.poster,
+.poster-cover {
+  width: 250px;
+  height: 370px;
+  border-radius: 0.5rem;
+}
+
+.movie__card:hover .poster-cover {
+  background-color: gray;
+  /* border: 1px solid blueviolet; */
+}
+
+.movie__card-title {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.movie__content {
+  margin: 0.5rem 1rem;
+}
+
+.movie__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 100;
+  color: gray;
+}
+
+.movie__info ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 5px;
+}
+.movie__info ul li {
+  list-style: none;
+  margin-left: 2.5px;
+}

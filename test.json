@@ -1,0 +1,356 @@
+[
+  {
+    "type": "TV Series",
+    "title": "Reacher",
+    "year": 2022,
+    "ratingsAverage": 8.3,
+    "ratingsQuantity": 59365,
+    "avgMinutes": 49,
+    "episodes": 9,
+    "category": ["action", "crime", "drama"],
+    "summary": "Jack Reacher was arrested for murder and now the police need his help. Based on the books by Lee Child.",
+    "topCast": [
+      {
+        "name": "Alan Ritchson",
+        "alias": "Jack Reacher",
+        "image": "cast-alan_ritchson.jpg",
+        "star": true
+      },
+      {
+        "name": "Malcolm Goodwin",
+        "alias": "Oscar Finlay",
+        "image": "cast-malcolm_goodwin.jpg",
+        "star": true
+      },
+      {
+        "name": "Willa Fitzgerald",
+        "alias": "Roscoe Conklin",
+        "image": "cast-willa_fitzgerald.jpg",
+        "star": true
+      },
+      {
+        "name": "Hugh Thompson",
+        "alias": "Officer Baker",
+        "image": "cast-hugh_thompson.jpg",
+        "star": false
+      },
+      {
+        "name": "Chris Webster",
+        "alias": "KJ",
+        "image": "cast-chris_webster.jpg",
+        "star": false
+      },
+      {
+        "name": "Bruce McGill",
+        "alias": "Mayor Grover Teale",
+        "image": "cast-bruce_mcgill.jpg",
+        "star": false
+      }
+    ],
+    "creators": ["Nick Santora"],
+    "coverImage": "cover-reacher.jpg",
+    "images": [
+      "reacher-1.jpg",
+      "reacher-2.jpg",
+      "reacher-3.jpg",
+      "reacher-4.jpg",
+      "reacher-5.jpg"
+    ],
+    "imdb": "https://www.imdb.com/title/tt9288030/"
+  },
+  {
+    "type": "TV Series",
+    "title": "Gomorra: La serie",
+    "year": 2014,
+    "ratingsAverage": 8.7,
+    "ratingsQuantity": 37235,
+    "avgMinutes": 55,
+    "episodes": 58,
+    "category": ["thriller", "crime", "drama"],
+    "summary": "Ciro disregards tradition in his attempt to become the next boss of his crime syndicate. The internal power struggle puts him and his entire family's life at risk.",
+    "topCast": [
+      {
+        "name": "Salvatore Esposito",
+        "alias": "Genny Savastano",
+        "image": "cast-salvatore_esposito.jpg",
+        "star": true
+      },
+      {
+        "name": "Marco D'Amore",
+        "alias": "Ciro Di Marzio",
+        "image": "cast-marco_Dd'amore.jpg",
+        "star": true
+      },
+      {
+        "name": "Cristiana Dell'Anna",
+        "alias": "Patrizia",
+        "image": "cast-cristiana_dell'anna.jpg",
+        "star": true
+      },
+      {
+        "name": "Fortunato Cerlino",
+        "alias": "Pietro Savastano",
+        "image": "cast-fortunato_cerlino.jpg",
+        "star": false
+      },
+      {
+        "name": "Arturo Muselli",
+        "alias": "Enzo 'Sangue Blu'",
+        "image": "cast-arturo-muselli.jpg",
+        "star": false
+      },
+      {
+        "name": "Cristina Donadio",
+        "alias": "Annalisa 'Scianel' Magliocca",
+        "image": "cast-cristina_donadio.jpg",
+        "star": false
+      }
+    ],
+    "creators": ["Leonardo Fasoli", "Stefano Bises", "Roberto Saviano"],
+    "coverImage": "cover-gomorra_la_serie.jpg",
+    "images": [
+      "gomorra_la_serie-1.jpg",
+      "gomorra_la_serie-2.jpg",
+      "gomorra_la_serie-3.jpg",
+      "gomorra_la_serie-4.jpg",
+      "gomorra_la_serie-5.jpg"
+    ],
+    "imdb": "https://www.imdb.com/title/tt2049116/"
+  },
+  {
+    "type": "TV Series",
+    "title": "Westworld",
+    "year": 2016,
+    "ratingsAverage": 8.6,
+    "ratingsQuantity": 468236,
+    "avgMinutes": 62,
+    "episodes": 36,
+    "category": ["mystery", "crime", "Sci-Fi"],
+    "summary": "Set at the intersection of the near future and the reimagined past, explore a world in which every human appetite can be indulged without consequence.",
+    "topCast": [
+      {
+        "name": "Evan Rachel Wood",
+        "alias": "Dolores Abernathy",
+        "image": "cast-evan_rachel_wood.jpg",
+        "star": true
+      },
+      {
+        "name": "Jeffrey Wright",
+        "alias": "Bernard Lowe",
+        "image": "cast-jeffrey_wright.jpg",
+        "star": true
+      },
+      {
+        "name": "Ed Harris",
+        "alias": "Man in Black",
+        "image": "cast-ed_harris.jpg",
+        "star": true
+      },
+      {
+        "name": "Thandiwe Newton",
+        "alias": "Maeve Millay",
+        "image": "cast-thandiwe_newton.jpg",
+        "star": false
+      },
+      {
+        "name": "Tessa Thompson",
+        "alias": "Charlotte Hale",
+        "image": "cast-tessa_thompson.jpg",
+        "star": false
+      },
+      {
+        "name": "James Marsden",
+        "alias": "Teddy Flood",
+        "image": "cast-james_marsden.jpg",
+        "star": false
+      }
+    ],
+    "creators": ["Lisa Joy", "Jonathan Nolan"],
+    "coverImage": "cover-westworld.jpg",
+    "images": [
+      "westworld-1.jpg",
+      "westworld-2.jpg",
+      "westworld-3.jpg",
+      "westworld-4.jpg",
+      "westworld-5.jpg"
+    ],
+    "imdb": "https://www.imdb.com/title/tt0475784/"
+  },
+  {
+    "type": "TV Series",
+    "title": "Big Little Lies",
+    "year": 2017,
+    "ratingsAverage": 8.5,
+    "ratingsQuantity": 185196,
+    "avgMinutes": 60,
+    "episodes": 14,
+    "category": ["mystery", "crime", "drama"],
+    "summary": "The apparently perfect lives of upper-class mothers, at a prestigious elementary school, unravel to the point of murder when a single mother moves to their quaint Californian beach town.",
+    "topCast": [
+      {
+        "name": "Reese Witherspoon",
+        "alias": "Madeline Martha Mackenzie",
+        "image": "cast-reese_witherspoon.jpg",
+        "star": true
+      },
+      {
+        "name": "Nicole Kidman",
+        "alias": "Celeste Wright",
+        "image": "cast-nicole_kidman.jpg",
+        "star": true
+      },
+      {
+        "name": "Shailene Woodley",
+        "alias": "Jane Chapman",
+        "image": "cast-shailene_woodley.jpg",
+        "star": true
+      },
+      {
+        "name": "Zoë Kravitz",
+        "alias": "Bonnie Carlson",
+        "image": "cast-zoe_kravitz.jpg",
+        "star": false
+      },
+      {
+        "name": "Adam Scott",
+        "alias": "Ed Mackenzie",
+        "image": "cast-adam_scott.jpg",
+        "star": false
+      },
+      {
+        "name": "Laura Dern",
+        "alias": "Renata Klein",
+        "image": "cast-laura_dern.jpg",
+        "star": false
+      }
+    ],
+    "creators": ["David E. Kelley"],
+    "coverImage": "cover-big_little_lies.jpg",
+    "images": [
+      "big_little_lies-1.jpg",
+      "big_little_lies-2.jpg",
+      "big_little_lies-3.jpg",
+      "big_little_lies-4.jpg",
+      "big_little_lies-5.jpg"
+    ],
+    "imdb": "https://www.imdb.com/title/tt3920596/"
+  },
+  {
+    "type": "TV Series",
+    "title": "The Handmaid's Tale",
+    "year": 2017,
+    "ratingsAverage": 8.4,
+    "ratingsQuantity": 213726,
+    "avgMinutes": 60,
+    "episodes": 56,
+    "category": ["drama", "Sci-Fi", "thriller"],
+    "summary": "Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.",
+    "topCast": [
+      {
+        "name": "Elisabeth Moss",
+        "alias": "June Osborne",
+        "image": "cast-elisabeth_moss.jpg",
+        "star": true
+      },
+      {
+        "name": "Yvonne Strahovski",
+        "alias": "Serena Joy Waterford",
+        "image": "cast-yvonne_strahovski.jpg",
+        "star": true
+      },
+      {
+        "name": "Joseph Fiennes",
+        "alias": "Fred Waterford",
+        "image": "cast-joseph_fiennes.jpg",
+        "star": true
+      },
+      {
+        "name": "Ann Dowd",
+        "alias": "Aunt Lydia Clements",
+        "image": "cast-ann_dowd.jpg",
+        "star": false
+      },
+      {
+        "name": "Madeline Brewer",
+        "alias": "Janine Lindo",
+        "image": "cast-madeline_brewer.jpg",
+        "star": false
+      },
+      {
+        "name": "Amanda Brugel",
+        "alias": "Rita Blue",
+        "image": "cast-amanda_brugel.jpg",
+        "star": false
+      }
+    ],
+    "creators": ["Bruce Miller"],
+    "coverImage": "cover-the_handmaid's_tale.jpg",
+    "images": [
+      "the_handmaid's_tale-1.jpg",
+      "the_handmaid's_tale-2.jpg",
+      "the_handmaid's_tale-3.jpg",
+      "the_handmaid's_tale-4.jpg",
+      "the_handmaid's_tale-5.jpg"
+    ],
+    "imdb": "https://www.imdb.com/title/tt5834204/"
+  },
+  {
+    "type": "TV Mini Series",
+    "title": "The Queen's Gambit",
+    "year": 2020,
+    "ratingsAverage": 8.6,
+    "ratingsQuantity": 392642,
+    "avgMinutes": 395,
+    "episodes": 7,
+    "category": ["drama"],
+    "summary": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But child stardom comes at a price.",
+    "topCast": [
+      {
+        "name": "Anya Taylor-Joy",
+        "alias": "Beth Harmon",
+        "image": "cast-anya_taylor-joy.jpg",
+        "star": true
+      },
+      {
+        "name": "Chloe Pirrie",
+        "alias": "lice Harmon",
+        "image": "cast-chloe_pirrie.jpg",
+        "star": true
+      },
+      {
+        "name": "Bill Camp",
+        "alias": "Mr. Shaibel",
+        "image": "cast-bill_camp.jpg",
+        "star": true
+      },
+      {
+        "name": "Marcin Dorocinski",
+        "alias": "asily Borgov",
+        "image": "cast-marcin_dorocinski.jpg",
+        "star": false
+      },
+      {
+        "name": "Marielle Heller",
+        "alias": "Alma Wheatley",
+        "image": "cast-marielle_heller.jpg",
+        "star": false
+      },
+      {
+        "name": "Thomas Brodie-Sangster",
+        "alias": "Benny Watts",
+        "image": "cast-thomas_brodie-sangster.jpg",
+        "star": false
+      }
+    ],
+    "creators": ["Scott Frank", "Allan Scott"],
+    "coverImage": "cover-the_quen's_gambit.jpg",
+    "images": [
+      "the_quen's_gambit-1.jpg",
+      "the_quen's_gambit-2.jpg",
+      "the_quen's_gambit-3.jpg",
+      "the_quen's_gambit-4.jpg",
+      "the_quen's_gambit-5.jpg"
+    ],
+    "imdb": "https://www.imdb.com/title/tt10048342/"
+  }
+]

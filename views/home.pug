@@ -1,0 +1,56 @@
+extends base
+
+mixin movieListBlock(title)
+    .movie__container
+        h4.m-0.movie__container-title= title
+        .movie__container-movies
+
+
+            a.movie__card.off-a(href="#")
+                i(class="bi bi-bookmark").poster__save.unsaved
+                i(class="bi bi-bookmark-fill").poster__save.saved
+                div.poster-cover
+                img(src="/img/movies/covers/cover-gomorra_la_serie.jpg").poster
+                p.m-0.mt-2.movie__card-title Name of The Movie
+                .movie__content
+                    .movie__info.d-flex
+                        span 2019
+                        ul.m-0.gen
+                            li Krimi |
+                            li Drama |
+                            li Horror
+                    .movie__info
+                        p.m-0 Movie
+                        .ratings 
+                            span 7.8/10
+                            i(class="bi bi-star-fill gold").icon
+
+            a.movie__card.off-a(href="#")
+                i(class="bi bi-bookmark").poster__save.unsaved
+                div.poster-cover
+                img(src="/img/movies/covers/cover-gomorra_la_serie.jpg").poster
+                p.m-0.mt-2.movie__card-title Name of The Movie
+                .movie__content
+                    .movie__info.d-flex
+                        span 2019
+                        ul.m-0.gen
+                            li Krimi |
+                            li Drama |
+                            li Horror
+                    .movie__info
+                        p.m-0 Movie
+                        .ratings 
+                            span 7.8/10
+                            i(class="bi bi-star-fill gold").icon
+
+
+
+
+        
+
+block content
+    main.main
+
+        +movieListBlock("Drámák")
+        +movieListBlock("Akció filmek")
+
