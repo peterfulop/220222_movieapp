@@ -1,57 +1,71 @@
 extends base
 
-mixin movieListBlock(title)
-    .movie__container
-        h4.m-0.movie__container-title= title
-        .movie__container-movies
-
-            .movie__card.off-a(href="#")
-                a.movie__image.pos_abs
-                    a(href="#")
-                        i(class="bi bi-bookmark-fill").poster__save.saved
-                    div.poster-cover
-                    img(src="/img/movies/covers/cover-gomorra_la_serie.jpg").poster
-                    p.m-0.mt-2.movie__card-title Name of The Movie
-                .movie__content
-                    .movie__info.d-flex
-                        span 2019
-                        ul.m-0.gen
-                            li Krimi |
-                            li Drama |
-                            li Horror
-                    .movie__info
-                        p.m-0 Movie
-                        .ratings 
-                            span 7.8/10
-                            i(class="bi bi-star-fill gold").icon
-
-            .movie__card.off-a(href="#")
-                .movie__image
-                    i(class="bi bi-bookmark").poster__save.unsaved
-                    div.poster-cover
-                    img(src="/img/movies/covers/cover-gomorra_la_serie.jpg").poster
-                    p.m-0.mt-2.movie__card-title Name of The Movie
-                .movie__content
-                    .movie__info.d-flex
-                        span 2019
-                        ul.m-0.gen
-                            li Krimi |
-                            li Drama |
-                            li Horror
-                    .movie__info
-                        p.m-0 Movie
-                        .ratings 
-                            span 7.8/10
-                            i(class="bi bi-star-fill gold").icon
+mixin movieFakeCard()
+    .movie__card-fake
 
 
+mixin movieCard(movie)
+    .movie__card
+        //- a(href=`${movie.imdb_id}`).save-icon
+        //-     i(class="bi bi-heart-fill").saved
+        a.movie__cover.off-a(href=`/${movie.type}/${movie.imdb_id}`)
+            img(src=`${movie.image_url}`).poster
+        p.m-0.mt-2.movie__card-title= movie.title
+        small.movie__type #{movie.type}
+        .movie__content.mt-0
+            ul.movie__category
+                if(movie.gen.length > 2)
+                    each i in [0, 1, 2]
+                        li #{movie.gen[`${i}`]['genre']}
+                        li #{`${i < 2 ? '|':''}`}
+                else if(movie.gen.length === 2)
+                    each i in [0, 1]
+                        li #{movie.gen[`${i}`]['genre']}
+                        li #{`${i < 1 ? '|':''}`}
+                else        
+                    li #{movie.gen[0]['genre']}
+
+            .movie__info
+                span.rate #{`${movie.year ? movie.year : movie.start_year}`}
+                .ratings.movie__info
+                    img(src="/img/imdb.png", alt="imdb icon" class="imdb_logo").icon
+                    span.rate= movie.rating
 
 
-        
+mixin movieBlock(title, movies)
+    .movie__block.mt-2.container
+        h4.m-0.movie__block-title= title
+        .movie__block-bar
+            button.navbar.arrow__left.invisible
+                i(class="bi bi-chevron-compact-left")
+            .movie__block-movies.scroll-container
+                //- each i in[0,1,2,3,4,5,6,7,8,9]
+                //-     +movieFakeCard()
+                each movie in movies
+                    +movieCard(movie)
+            button.navbar.arrow__right
+                i(class="bi bi-chevron-compact-right")
 
+mixin movieFakeBlock()
+    .movie__block.mt-2.container
+        h4.m-0.movie__block-title ...
+        .movie__block-bar
+            button.navbar.arrow__left.invisible
+                i(class="bi bi-chevron-compact-left")
+            .movie__block-movies.scroll-container
+                each i in[0,1,2,3,4,5,6,7,8,9]
+                    +movieFakeCard()
+            button.navbar.arrow__right
+                i(class="bi bi-chevron-compact-right")
+           
+      
 block content
-    main.main
+    script(type="module" src="/js/index.js") 
 
-        +movieListBlock("Drámák")
-        +movieListBlock("Akció filmek")
+    main.main
+        //- each i in[0,1,2,3,4]
+        //-     +movieFakeBlock()
+        each block in blocks
+            +movieBlock(block.title,block.movies)
+
 
